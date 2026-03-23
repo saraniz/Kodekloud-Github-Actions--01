@@ -15,8 +15,5 @@ jobs:
             ls -ltra
             cat README.md
 
-        - name: Install cowsay progra,
-          run: sudo apt-get install cowsay -y
-
-        - name: Generate ASCII Artwork
-          run: cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt
+        - name: Excuting shell script
+          run: ./ascii-script.sh
