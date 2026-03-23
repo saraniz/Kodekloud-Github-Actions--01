@@ -15,6 +15,9 @@ jobs:
             ls -ltra
             cat README.md
 
+        - name: List repo files
+          run: ls -ltra
+
         - name: Excuting shell script
           run: |
             chmod +x ascii-script.sh
